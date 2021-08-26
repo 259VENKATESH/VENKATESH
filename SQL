@@ -1,0 +1,11 @@
+create table Railway2 (
+TrainStation varchar(555),
+train_number int unique,
+rail_routes varchar(5000)not null,
+passenger_bookings int,
+in_time time not null,
+out_time time not null,
+station_sequential_number int not null
+)
+insert into railway2 ()
+values('vizag',22206,'Vizag-Chennai',600,'7:00:00','7:15:00',1)
